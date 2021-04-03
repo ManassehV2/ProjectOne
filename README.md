@@ -3,9 +3,9 @@ This project is adopted form Harvard's most popular class **CS50** Programming w
 
 # Objectives
 
-    Become more comfortable with Python.
-    Gain experience with Flask.
-    Learn to use SQL to interact with databases.
+1. Become more comfortable with Python.
+2. Gain experience with Flask.
+3. Learn to use SQL to interact with databases.
 
 # Overview
 
@@ -15,7 +15,7 @@ In this project, you’ll build a book review website. Users will be able to reg
 
 For this project, you’ll need to set up a PostgreSQL database to use with our application. It’s possible to set up PostgreSQL locally on your own computer, but for this project, we’ll use a database hosted by Heroku, an online web hosting service.
 
-1. Navigate to https://www.heroku.com/, and create an account if you don’t already have one.
+1. Navigate to [https://www.heroku.com/], and create an account if you don’t already have one.
     On Heroku’s Dashboard, click “New” and choose “Create new app.”
 
 2. Give your app a name, and click “Create app.”
@@ -56,11 +56,12 @@ Alternatively, if you install PostgreSQL on your own computer, you should be abl
 
 Goodreads is a popular book review website, and we’ll be using their API in this project to get access to their review data for individual books.
 
-    1. Go to https://www.goodreads.com/api and sign up for a Goodreads account if you don’t already have one.
+1. Go to [https://www.goodreads.com/api] and sign up for a Goodreads account if you don’t already have one.
 
-    2. Navigate to https://www.goodreads.com/api/keys and apply for an API key. For “Application name” and “Company name” feel free to just write “project1,” and no need to include an application URL, callback URL, or support URL.
-    3. You should then see your API key. (For this project, we’ll care only about the “key”, not the “secret”.)
-    4. You can now use that API key to make requests to the Goodreads API, documented here. In particular, Python code like the below
+2. Navigate to [https://www.goodreads.com/api/keys] and apply for an API key. For “Application name” and “Company name” feel free to just write “project1,” and no need to include an application URL, callback URL, or support URL.
+3. You should then see your API key. (For this project, we’ll care only about the “key”, not the “secret”.)
+4. You can now use that API key to make requests to the Goodreads API, documented here. In particular, Python code like the below
+
 
 ``` python
 import requests
@@ -137,4 +138,4 @@ Beyond these requirements, the design, look, and feel of the website are up to y
 
 ## References
 <a id="1">[1]</a> 
-https://cs50.harvard.edu/web/2020/#:~:text=Programming%20with%20Python%20and%20JavaScript
+[https://cs50.harvard.edu/web/2020/#:~:text=Programming%20with%20Python%20and%20JavaScript
