@@ -50,7 +50,7 @@ Alternatively, if you install PostgreSQL on your own computer, you should be abl
 5. Set the environment variable DATABASE_URL to be the URI of your database, which you should be able to see from the credentials page on Heroku.
 
 6. Run flask run to start up your Flask application.
-7. If you navigate to the URL provided by flask, you should see the text "Project 1: TODO"!
+7. If you navigate to the URL provided by flask, you should see the text "Project One: TODO"!
 
 ## Goodreads API
 
